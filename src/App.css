@@ -1,38 +1,95 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
+  margin: 31px 0;
+  text-align: center;
   color: white;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-
-.App-link {
-  color: #61dafb;
+hr{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-inline{
+align-items: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+font-size: 15px;
+font-weight: 400;
+height: 59px;
+line-height: 22.5px;
+margin-top: 0px;
+text-align: left;
+text-size-adjust: 100%;
+width: 690px;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.form-group{
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-basis: auto;
+  font-size: 15px;
+  margin-right: 35px;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #444;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+input{
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 1.5px);
+  color: fieldtext;
+  cursor: text;
+  margin: 0em;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+p {
+  display: block;
+  text-align: left;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #303030;
+  border-radius: 0.3rem;
+}
+.mt-4{
+  margin-top: 1.5rem!important;
 }
